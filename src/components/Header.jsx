@@ -1,5 +1,5 @@
 import * as React from 'react'
-import logo from '../assets/Seshspots Logo.png'
+import logo from '../assets/Logo.png'
 function Header() {
 
   return (
