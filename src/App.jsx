@@ -5,8 +5,14 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Map />
+      <div className='max-h-screen'>
+        <div className='sticky z-50'>
+          <Header />
+        </div>
+        <div>
+          <Map />
+        </div>
+      </div>
     </div>
   )
 }
